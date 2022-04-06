@@ -99,5 +99,128 @@
         </form>
     </div>
 </div>
+
+<div class="container">
+    <div class="content">
+        <h1>Pizzeria</h1>
+        <form>
+            <fieldset>
+                <legend>Customer:</legend>
+                <div class="row">
+                    <div>
+                        <label for="first">First</label>
+                        <input id="first" name="first_name" type="text">
+                    </div>
+                    <div>
+                        <label for="last">Last</label>
+                        <input id="last" name="last_name" type="text">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="row">
+                <fieldset>
+                    <legend>Crust:</legend>
+                    <div>
+                        <input type="radio" id="thin" name="crust">
+                        <label for="thin">Thin Crust</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="GF" name="crust">
+                        <label for="GF">Gluten Free</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="regular" name="crust">
+                        <label for="regular">Regular Crust</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Size:</legend>
+                    <div>
+                        <input type="radio" id="personal" name="size">
+                        <label for="personal">Personal</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="med" name="size">
+                        <label for="medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="largePizza" name="size">
+                        <label for="largePizza">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="family" name="size">
+                        <label for="family">Family</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>1st Half Toppings:</legend>
+                    <div>
+                        <input type="checkbox"  id="pepperoni" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="olives" value="olives">
+                        <label for="olives">Olives</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="mushrooms" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="sausage" value="sausage">
+                        <label for="sausage">Sausage</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="onion" value="onion">
+                        <label for="onion">Onion</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>2nd Half Toppings:</legend>
+                    <div>
+                        <input type="checkbox"  id="same" value="same">
+                        <label for="same">Same as 1st</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="pepperoni1" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="olives1" value="olives">
+                        <label for="olives">Olives</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="mushrooms1" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="sausage1" value="sausage">
+                        <label for="sausage">Sausage</label>
+                    </div>
+                    <div>
+                        <input type="checkbox"  id="onion1" value="onion">
+                        <label for="onion">Onion</label>
+                    </div>
+                </fieldset>
+            </div>
+            
+
+            <fieldset>
+                <legend>Special:</legend>
+                <label for="SpecialRequests">Special Requests:</label>
+                <textarea id="SpecialRequests1" name="SpecialRequests" rows="4" cols="15" placeholder="Dietary restrictions, preferences, requests."></textarea>
+            </fieldset>
+            <button type="button" onclick="alert('Free today for out Grand Opening!')">Calculate Cost</button>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
